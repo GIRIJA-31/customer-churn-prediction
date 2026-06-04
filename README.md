@@ -42,12 +42,19 @@ and reduce revenue loss.
 | Contract type (0.188) | #1 most important feature driving churn |
 
 ## 📁 Project Files
+
+It should look like:
+
+````markdown
+## 📁 Project Files
+
+```text
 churn_project/
 │
-├── churn_analysis.py           # Main analysis + ML code
-├── eda_charts.png              # 6-panel EDA visualization
-├── feature_importance.png      # Top 10 churn drivers chart
-├── churn_model.pkl             # Saved Random Forest model
+├── churn_analysis.py          # Main analysis + ML code
+├── eda_charts.png             # 6-panel EDA visualization
+├── feature_importance.png     # Top 10 churn drivers chart
+├── churn_model.pkl            # Saved Random Forest model
 └── churn_clean_for_powerbi.csv # Cleaned data for dashboard
 ## 🚀 How to Run
 ```bash
